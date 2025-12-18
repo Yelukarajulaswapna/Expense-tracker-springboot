@@ -1,0 +1,57 @@
+/* Global */
+body {
+  background: #eef1f6;
+  font-family: "Segoe UI", Roboto, Arial;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+/* Auth Page */
+.auth-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  background: #fff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.auth-card input {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.small-muted {
+  color: #6c757d;
+}
+
+/* Tables */
+.table {
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #f1f1f1;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-danger, .btn-warning {
+  border-radius: 8px;
+}
+
+/* Misc */
+.table-wrap {
+  overflow-x: auto;
+}
