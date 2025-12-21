@@ -153,8 +153,14 @@ http://localhost:8080/swagger-ui/index.html#/expense-controller
 ### 📈 Expense Charts
 ![chart](https://github.com/user-attachments/assets/760f55eb-ca99-41a1-a588-8aa9395ac70a)
 
-
 ---
 
-
+🧠 Learning Outcomes
+Built a real-world Java Full Stack Application
+Implemented JWT-based authentication
+Designed RESTful APIs
+Integrated PostgreSQL with Spring Boot
+Deployed application on Render
+Handled frontend-backend communication using Fetch API
+Worked with charts and data visualization
 
