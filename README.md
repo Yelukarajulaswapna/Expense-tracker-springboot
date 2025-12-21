@@ -1,42 +1,113 @@
-# Expense Tracker Application 💰
+# 💰 Expense Tracker Application
 
-A full-stack Expense Tracker application built using **Spring Boot, JWT Authentication, PostgreSQL, and Vanilla JavaScript**, deployed on **Render**.
+A **Full Stack Expense Tracker Application** developed using **Java Spring Boot (Backend)** and **Vanilla JavaScript (Frontend)**.  
+The application helps users manage their daily expenses, categorize spending, and visualize expense data securely using **JWT authentication**.  
+It is deployed on **Render** with **PostgreSQL** as the database.
+
+This project demonstrates **real-world Java Full Stack development skills**, including REST APIs, authentication, database integration, and frontend-backend communication.
 
 ---
 
 ## 🚀 Features
-- User Registration & Login (JWT Authentication)
-- Add / Edit / Delete Categories
-- Add / Edit / Delete Expenses
-- Expense summary chart
-- Secure REST APIs
-- PostgreSQL database
-- Deployed on Render
+
+### 🔐 Authentication & Security
+- User Registration
+- User Login
+- JWT-based Authentication
+- Secure access to protected APIs
+- Token stored in browser for session handling
+
+### 🗂 Category Management
+- Create new categories
+- View all categories
+- Update category details
+- Delete categories
+
+### 🧾 Expense Management
+- Add expenses with category, amount, date, and comments
+- Edit existing expenses
+- Delete expenses
+- View all expenses in tabular format
+- Auto-calculated total expense
+
+### 📊 Dashboard & Analytics
+- Expense summary visualization
+- Pie Chart for category-wise expense distribution
+- Clean and responsive UI
+- Real-time chart updates on expense changes
+
+### ☁ Deployment
+- Backend & frontend hosted together
+- PostgreSQL database hosted on Render
+- Environment variables for secure configuration
 
 ---
 
 ## 🛠 Tech Stack
-- **Backend:** Java, Spring Boot, Spring Security, JWT
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Database:** PostgreSQL (Render)
-- **Deployment:** Render
-- **Build Tool:** Maven
+
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- JWT (JSON Web Token)
+- Spring Data JPA
+- Hibernate
+- RESTful APIs
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Bootstrap
+- Chart.js
+
+### Database
+- PostgreSQL (Render Cloud Database)
+
+### Tools & Platforms
+- Maven
+- Git & GitHub
+- Postman
+- Render (Deployment)
 
 ---
 
 ## 📂 Project Structure
 
-src └── main ├── java │   └── com.example.expensetracker └── resources ├── static │   ├── index.html │   ├── login.html │   ├── register.html │   ├── app.js │   └── styles.css └── application.properties
+src  
+└── main  
+                        ├── java  
+                        │                   └── com.example.expensetracker  
+                        │                                    ├── controller  
+                        │                                    ├── service  
+                        │                                    ├── repository  
+                        │                                    ├── model  
+                        │                                    └── security  
+                        └── resources  
+                                          ├── static  
+                                          │                  ├── index.html  
+                                          │                  ├── login.html  
+                                          │                  ├── register.html  
+                                          │                  ├── app.js  
+                                          │                  └── styles.css  
+                                          └── application.properties  
 
 ---
 
 ## 🔐 Environment Variables (Render)
 
-SPRING_DATASOURCE_URL SPRING_DATASOURCE_USERNAME SPRING_DATASOURCE_PASSWORD SPRING_JPA_DATABASE_PLATFORM SERVER_PORT
+These variables are configured in the **Render Dashboard**:
+
+- SPRING_DATASOURCE_URL
+- SPRING_DATASOURCE_USERNAME
+- SPRING_DATASOURCE_PASSWORD
+- SPRING_JPA_DATABASE_PLATFORM
+- SERVER_PORT
 
 ---
 
 ## ⚙ application.properties
+
 ```properties
 spring.datasource.url=${SPRING_DATASOURCE_URL}
 spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
@@ -48,12 +119,42 @@ spring.jpa.database-platform=${SPRING_JPA_DATABASE_PLATFORM}
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
+server.port=${SERVER_PORT:8080}
 
 ---
 
 ▶ Live Demo
 
-🔗 https://YOUR-RENDER-URL
+🔗 https://burma-nonslanderous-synthia.ngrok-free.dev
 
 🔗 Swagger UI:
-https://YOUR-RENDER-URL/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html#/expense-controller
+
+
+
+## 📸 Application Screenshots
+
+
+### 🔐 Login Page
+<img width="469" height="484" alt="image" src="https://github.com/user-attachments/assets/bd4b1943-a1bc-4faa-a945-5c5f089fbdb3" />
+
+---
+
+### 📝 Register Page
+<img width="443" height="469" alt="image" src="https://github.com/user-attachments/assets/b1f4bc2b-a392-44c4-bbd6-772cf8fc3b05" />
+---
+
+### 📊 Dashboard Overview
+<img width="1288" height="727" alt="image" src="https://github.com/user-attachments/assets/d69ec3a5-e4b5-4eae-997e-855e8a282db9" />
+
+
+---
+
+### 📈 Expense Charts
+![chart](https://github.com/user-attachments/assets/760f55eb-ca99-41a1-a588-8aa9395ac70a)
+
+
+---
+
+
+
