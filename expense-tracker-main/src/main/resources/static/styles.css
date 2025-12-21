@@ -1,0 +1,100 @@
+/* ================= GLOBAL ================= */
+body {
+  background: linear-gradient(135deg, #eef1f6, #f9fbff);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* ================= AUTH ================= */
+.auth-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  background: #ffffff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.auth-card input {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.small-muted {
+  color: #6c757d;
+}
+
+/* ================= DASHBOARD ================= */
+.card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card h5 {
+  font-weight: 600;
+}
+
+/* Summary cards */
+.stat-card {
+  text-align: center;
+  padding: 18px;
+}
+
+.stat-card h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-card span {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Table */
+.table {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #f1f4f8;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 10px;
+}
+
+.btn-sm {
+  border-radius: 8px;
+}
+
+/* Chart */
+canvas {
+  max-height: 320px;
+}
+
+/* Responsive */
+.table-wrap {
+  overflow-x: auto;
+}
+body.dark {
+    background: #121212;
+    color: #f1f1f1;
+}
+
+body.dark .card {
+    background: #1f1f1f;
+    color: #fff;
+}
+
+body.dark table {
+    color: #fff;
+}
