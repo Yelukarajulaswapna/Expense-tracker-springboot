@@ -109,6 +109,28 @@ These variables are configured in the **Render Dashboard**:
 ## ⚙ application.properties
 
 ```properties
+
+spring.datasource.url=jdbc:mysql://localhost:3306/expensetracker
+spring.datasource.username=root
+spring.datasource.password=Swapn@2281
+
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# -------- SPRING SECURITY LOGIN (DEV ONLY) --------
+spring.security.user.password=admin123
+spring.security.user.roles=USER
+
+# remove driver-class-name OR set it to MySQL:
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.properties.hibernate.format_sql=true
+server.error.include-message=always
+logging.level.org.hibernate.SQL=DEBUG
+
+## OR
+
 spring.datasource.url=${SPRING_DATASOURCE_URL}
 spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
 spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
