@@ -2,7 +2,7 @@
 
 A **Full Stack Expense Tracker Application** developed using **Java Spring Boot (Backend)** and **Vanilla JavaScript (Frontend)**.  
 The application helps users manage their daily expenses, categorize spending, and visualize expense data securely using **JWT authentication**.  
-It is deployed on **Render** with **PostgreSQL** as the database.
+It is deployed on **Render** with **MYSQL / PostgreSQL** as the database.
 
 This project demonstrates **real-world Java Full Stack development skills**, including REST APIs, authentication, database integration, and frontend-backend communication.
 
@@ -38,7 +38,7 @@ This project demonstrates **real-world Java Full Stack development skills**, inc
 
 ### ☁ Deployment
 - Backend & frontend hosted together
-- PostgreSQL database hosted on Render
+- MYSQL / PostgreSQL database hosted on Render
 - Environment variables for secure configuration
 
 ---
@@ -62,12 +62,12 @@ This project demonstrates **real-world Java Full Stack development skills**, inc
 - Chart.js
 
 ### Database
-- PostgreSQL (Render Cloud Database)
+- MYSQL for local / PostgreSQL (Render Cloud Database)
 
 ### Tools & Platforms
 - Maven
 - Git & GitHub
-- Postman
+- Postman and Swagger
 - Render (Deployment)
 
 ---
